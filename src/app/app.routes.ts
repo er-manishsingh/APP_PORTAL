@@ -28,79 +28,78 @@ export const routes: Routes = [
         path: '',
         component: EcommerceComponent,
         pathMatch: 'full',
-        title:
-          'Angular Ecommerce Dashboard | TailAdmin - Angular Admin Dashboard Template',
+        title: 'Dashboard | Examora | PORTAL',
       },
       {
         path:'calendar',
         component:CalenderComponent,
-        title:'Angular Calender | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Calendar | Examora | PORTAL'
       },
       {
         path:'profile',
         component:ProfileComponent,
-        title:'Angular Profile Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Profile | Examora | PORTAL'
       },
       {
         path:'form-elements',
         component:FormElementsComponent,
-        title:'Angular Form Elements Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Form Elements | Examora | PORTAL'
       },
       {
         path:'basic-tables',
         component:BasicTablesComponent,
-        title:'Angular Basic Tables Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Basic Tables | Examora | PORTAL'
       },
       {
         path:'blank',
         component:BlankComponent,
-        title:'Angular Blank Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Blank Page | Examora | PORTAL'
       },
       // support tickets
       {
         path:'invoice',
         component:InvoicesComponent,
-        title:'Angular Invoice Details Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Invoices | Examora | PORTAL'
       },
       {
         path:'line-chart',
         component:LineChartComponent,
-        title:'Angular Line Chart Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Line Chart | Examora | PORTAL'
       },
       {
         path:'bar-chart',
         component:BarChartComponent,
-        title:'Angular Bar Chart Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Bar Chart | Examora | PORTAL'
       },
       {
         path:'alerts',
         component:AlertsComponent,
-        title:'Angular Alerts Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Alerts | Examora | PORTAL'
       },
       {
         path:'avatars',
         component:AvatarElementComponent,
-        title:'Angular Avatars Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Avatars | Examora | PORTAL'
       },
       {
         path:'badge',
         component:BadgesComponent,
-        title:'Angular Badges Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Badges | Examora | PORTAL'
       },
       {
         path:'buttons',
         component:ButtonsComponent,
-        title:'Angular Buttons Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Buttons | Examora | PORTAL'
       },
       {
         path:'images',
         component:ImagesComponent,
-        title:'Angular Images Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Images | Examora | PORTAL'
       },
       {
         path:'videos',
         component:VideosComponent,
-        title:'Angular Videos Dashboard | TailAdmin - Angular Admin Dashboard Template'
+        title: 'Videos | Examora | PORTAL'
       },
     ]
   },
@@ -108,17 +107,17 @@ export const routes: Routes = [
   {
     path:'signin',
     component:SignInComponent,
-    title:'Angular Sign In Dashboard | TailAdmin - Angular Admin Dashboard Template'
+    title: 'Sign In | Examora | PORTAL'
   },
   {
     path:'signup',
     component:SignUpComponent,
-    title:'Angular Sign Up Dashboard | TailAdmin - Angular Admin Dashboard Template'
+    title: 'Sign Up | Examora | PORTAL'
   },
   // error pages
   {
     path:'**',
     component:NotFoundComponent,
-    title:'Angular NotFound Dashboard | TailAdmin - Angular Admin Dashboard Template'
+    title: 'Page Not Found | Examora | PORTAL'
   },
 ];

@@ -23,28 +23,27 @@
       'justify-start': (isExpanded$ | async) || (isHovered$ | async),
     }"
   >
-    <a routerLink="/">
+    <a routerLink="/" aria-label="Examora home">
       @if (
         (isExpanded$ | async) || (isHovered$ | async) || (isMobileOpen$ | async)
       ) {
-        <img
-          class="dark:hidden"
-          src="/images/logo/logo.svg"
-          alt="Logo"
-          width="150"
-          height="40"
-        />
-        <img
-          class="hidden dark:block"
-          src="/images/logo/logo-dark.svg"
-          alt="Logo"
-          width="150"
-          height="40"
-        />
+        <span class="flex items-center gap-2">
+          <img
+            src="/images/logo/logo-icon.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+          />
+          <span class="text-xl font-semibold text-gray-900 dark:text-white">
+            Examora
+          </span>
+        </span>
       } @else {
         <img
           src="/images/logo/logo-icon.svg"
-          alt="Logo"
+          alt=""
+          aria-hidden="true"
           width="32"
           height="32"
         />
